@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+bin/res/
+config/
+data/
+libs/
+logs/
+MxLibData/
+plugins/
+scripts/
+config.json
+device.json
+mcl
+mcl.cmd
+mcl.jar

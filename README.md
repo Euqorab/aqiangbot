@@ -1,1 +1,2 @@
-# aqiangbot
+# ADJQbot
+a talk bot
