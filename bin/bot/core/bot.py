@@ -9,7 +9,7 @@ from graia.application.message.elements.internal import Plain
 from graia.application.friend import Friend
 from graia.application.group import Group, Member
 
-from message_handler import MsgHandler
+from core.message_handler import MsgHandler
 from mist import logger as log
 from mist import config_util as config
 

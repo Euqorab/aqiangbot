@@ -1,6 +1,6 @@
 # coding=utf-8
 
-import time_util as tu
+import mist.time_util as tu
 
 
 def i(*msg):
