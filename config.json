@@ -24,7 +24,7 @@
     {
       "id": "net.mamoe:mirai-login-solver-selenium",
       "channel": "nightly",
-      "version": "1.0-dev-11",
+      "version": "1.0-dev-14",
       "type": "plugins"
     }
   ],

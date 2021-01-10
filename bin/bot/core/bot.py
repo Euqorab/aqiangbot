@@ -13,7 +13,6 @@ from core.message_handler import MsgHandler
 from mist import logger as log
 from mist import config_util as config
 
-import time
 import threading
 
 
@@ -46,7 +45,7 @@ class Bot:
             msg = message.asDisplay()
             log.i("receive friend message: %s" % msg)
 
-            should_respond, msg_type, msg = handler.handle(msg)
+            should_respond, msg_type, msg = handler.handle(msg, friend=friend)
             log.i("should respond: %s, type: %s, msg %s" % (should_respond, msg_type[1], msg))
 
             if should_respond:
